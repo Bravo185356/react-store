@@ -1,0 +1,16 @@
+.catalog {
+  display: grid;
+  justify-content: center;
+  grid-template: repeat(auto-fit, minmax(100px, 1fr)) / repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.showFormButton {
+  margin-bottom: 20px;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

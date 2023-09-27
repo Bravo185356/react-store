@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(180, 180, 255);
+  padding: 15px;
+  box-shadow: 0px 0px 5px rgb(177, 177, 177);
+}
+.title {
+    font-size: 24px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}

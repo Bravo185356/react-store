@@ -1,0 +1,33 @@
+.productItem {
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.productImage {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(134, 134, 134);
+
+    img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+.productInfo {
+    display: grid;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.deleteButtonWrap {
+    display: flex;
+    justify-content: end;
+
+    svg:hover {
+        transition: color 0.2s ease;
+        color: rgb(119, 119, 255);
+    }
+}

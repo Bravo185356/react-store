@@ -1,0 +1,30 @@
+.productImage img {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.productContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+svg {
+    max-width: 20px;
+    max-height: 20px;
+}
+.infoBlock span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.editBlock {
+    margin: 10px 0px;
+    button {
+        margin-top: 10px;
+    }
+}
